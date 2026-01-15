@@ -27,6 +27,15 @@ A comprehensive series of Jupyter notebook tutorials demonstrating quantum compu
    - Includes examples for n=2, n=4, and n=8
    - Flexible oracles: constant, alternating, parity, random patterns
 
+3. **bernstein-vazirani.ipynb** - Bernstein-Vazirani Algorithm
+   - Linear quantum speedup for finding hidden bit strings
+   - Problem: Find hidden n-bit string s where f(x) = s·x (mod 2)
+   - Classical: n queries | Quantum: 1 query
+   - Shows speedup from 4x (n=4) to 64x (n=64)
+   - Includes examples for n=3, n=4, and n=8
+   - Demonstrates phase-based information encoding and extraction
+   - Foundation for Simon's and Shor's algorithms
+
 ### Dependencies
 
 All installed via `uv`:
@@ -72,22 +81,17 @@ Each notebook should follow this comprehensive structure:
 
 ## Planned Notebooks (In Priority Order)
 
-1. **Bernstein-Vazirani Algorithm**
-   - Finding hidden bit strings using quantum parallelism
-   - Exponential speedup: n queries → 1 query
-   - Direct application of Deutsch-Jozsa principles
-
-2. **Simon's Algorithm**
+1. **Simon's Algorithm**
    - Finding hidden XOR patterns (period finding)
    - Exponential speedup over classical
    - Important precursor to Shor's algorithm
 
-3. **Grover's Algorithm**
+2. **Grover's Algorithm**
    - Quantum search/unstructured database search
    - Quadratic speedup: O(N) → O(√N)
    - One of the most practically useful quantum algorithms
 
-4. **Quantum Fourier Transform (QFT)**
+3. **Quantum Fourier Transform (QFT)**
    - Foundation for many quantum algorithms
    - Exponentially faster than classical FFT
    - Required for Shor's algorithm and phase estimation
