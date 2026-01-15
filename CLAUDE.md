@@ -1,0 +1,1 @@
+Create a series of tutorial in quantum computing circuits demonstrating how different algorithms achieve quantum speed-ups. These will be circuits constructed and implemented in Qiskit in python and jupyter notebooks. The project will use uv to control and update the python environment. 
