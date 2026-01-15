@@ -56,6 +56,30 @@ Building on Deutsch's algorithm, this tutorial shows how quantum algorithms can 
 
 ---
 
+### 3. [Bernstein-Vazirani Algorithm](bernstein-vazirani.ipynb)
+
+**Finding hidden information with linear speedup**
+
+Discover how quantum algorithms can extract specific information (not just global properties) more efficiently than classical approaches.
+
+- **Problem**: Find a hidden n-bit string s where f(x) = s·x (mod 2)
+- **Classical complexity**: n queries required (one per bit)
+- **Quantum complexity**: 1 query (linear speedup!)
+- **Key concepts**:
+  - Phase-based information encoding
+  - Quantum information extraction
+  - Hadamard transform for phase decoding
+  - Building blocks for advanced algorithms
+
+**Speedup examples**:
+- n=4: 4x speedup
+- n=8: 8x speedup
+- n=64: 64x speedup
+
+**What you'll learn**: How quantum parallelism can extract specific information (the entire hidden string) from a single query, and how phase encoding enables efficient information retrieval. This algorithm demonstrates the foundation for more powerful algorithms like Simon's and Shor's.
+
+---
+
 ## Getting Started
 
 ### Prerequisites
@@ -99,6 +123,7 @@ We recommend following the notebooks in order:
 
 1. Start with **Deutsch's Algorithm** to understand the basic principles
 2. Progress to **Deutsch-Jozsa** to see how these principles scale exponentially
+3. Continue with **Bernstein-Vazirani** to learn how quantum algorithms extract specific information
 
 ## Contributing
 
