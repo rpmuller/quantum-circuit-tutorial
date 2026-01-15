@@ -141,7 +141,7 @@ This project is open source and available for educational purposes.
 
 - [Qiskit Documentation](https://qiskit.org/documentation/)
 - [Qiskit Textbook](https://qiskit.org/textbook/)
-- [Nielsen & Chuang: Quantum Computation and Quantum Information](http://mmrc.amss.cas.cn/tlb/201702/W020170224608149940643.pdf)
+- [Nielsen & Chuang: Quantum Computation and Quantum Information](https://en.wikipedia.org/wiki/Quantum_Computation_and_Quantum_Information)
 
 ## Acknowledgments
 
